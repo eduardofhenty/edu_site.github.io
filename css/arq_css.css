@@ -1,0 +1,99 @@
+.container {/*elemento pai*/
+    background-color:gainsboro;
+    height: 60px;
+    width: 100%;
+    text-align:center;
+}
+
+#conteudo {
+    font-family: Arial;
+    font-size: 12px;  
+    position:  absolute ;
+    width: 70%;
+    top:  120px; 
+    left: 350px;
+    padding: 10px;    
+}
+
+#conteudo {
+    font-family: Arial;
+    font-size: 12px; 
+    text-align: justify;
+}
+
+#contato  {
+    font-family: Arial;
+    font-size: 12px; 
+    text-align: left;
+    position:  absolute ;
+    width: 70%;
+    top:  120px; 
+    left: 360px;
+}
+
+#cabecalho  {
+    color:black ;    
+    font-family: Arial;
+    font-size: 10px;       
+}
+
+#menu_horizontal {
+    background-color:black;
+    position: relative;
+    top:  20px;    
+    height:50px;
+    border-style:	solid;
+} 
+
+#menu_horizontal >a {
+    color:azure;
+} 
+
+#menu_horizontal >a:hover {
+    color:yellow;
+    font-size: large;    
+} 
+
+
+#barra_lateral {
+    background-color:whitesmoke;            
+    height: 750px ;
+    width: 350px;
+}   
+
+#conteudo_barra_lateral{
+    background-color:rgb(160, 160, 160);    
+    top:20px;
+    left: 25px;   
+    height:   95%  ;
+    right: 25px;
+    position: relative;
+    padding: 10px;    
+    width: 250px;   
+}
+
+#conteudo_barra_lateral >p {
+    color: whitesmoke;
+}
+
+#conteudo_barra_lateral >p:hover {
+    color:yellow;
+    font-size: large;    
+}
+
+#conteudo_barra_lateral >a:hover {
+    color:yellow;
+    font-size: large;    
+}
+
+
+#rodape {
+    background-color:black;
+    top: 960px;
+    height: 60px;
+    width: 100%;
+}
+#rodape > p {
+    color: white;
+}
+
