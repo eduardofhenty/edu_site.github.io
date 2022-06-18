@@ -1,52 +1,53 @@
-.container {/*elemento pai*/
-    background-color:gainsboro;
-    min-height:2000px;  
-    width: 100%;
-    text-align:center;
-    position:absolute;
-    display: flex;
-    flex-flow: column;    
- 
-}
-
-.container #menu_horizontal {
-    flex-grow: 0;
-    flex-basis: auto;    
-}
-
-.container #conteudo #barra_lateral #conteudo_barra_lateral {
-    flex-grow: 0;
-    flex-basis: auto;
-}
-
-.container #rodape {
-    flex-grow: 1;
-    flex-basis: 100px; 
-}
-
+html,
 body {
     height: 100vh;
     margin: 0
 }
 
+.container {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
 
+.container #menu_horizontal {
+    flex-grow: 0;
+    flex-basis: auto;
+    background-color: hotpink;
+}
+
+.container #conteudo #barra_lateral #conteudo_barra_lateral {
+    flex-grow: 1;
+    flex-basis: auto;
+    background-color: gold;
+}
+
+.container #rodape {
+    flex-grow: 0;
+    flex-basis: 100px;
+    background-color: indianred;
+}
+
+.container {
+    background-color:gainsboro;  
+    width: 100%;
+    text-align:center;
+    position:absolute;
+   
+}
 
 #conteudo {
     font-family: Arial;    
     font-size: 12px;  
-    position:  absolute ;
+    
     width: 70%;
     top:  120px; 
-    left: 350px;
-    height:auto;    
+    left: 350px;    
     padding: 10px;    
     font-family: Arial;
     font-size: 20px; 
-    text-align: justify;   
-    
+    text-align: justify;       
 }
-
-
 
 #conteudo >p {
     font-family: Arial;
@@ -72,7 +73,7 @@ body {
 
 #menu_horizontal {
     background-color:black;
-    position: relative;
+    
     top:  20px;    
     height:50px;
     border-style:	solid;
@@ -88,31 +89,22 @@ body {
     font-size: large;    
 } 
 
-
 #barra_lateral {
     background-color:whitesmoke;        
     border-style: solid;  
-    width: 350px;
-    top: 20px;     
     
-   
+    width: 350px;
+    top: 20px;       
 }   
-
-
-
-
 
 #conteudo_barra_lateral{    
     background-color:rgb(160, 160, 160);    
     top:20px;    
-    left: 25px;   
-    min-height: 100vh ;
+    left: 25px;       
     right: 25px;    
     padding: 10px;    
-    width: 250px;   
-    
+    width: 250px;       
 }
-
 
 #div_img > img{
     height: 200px;
@@ -124,8 +116,6 @@ body {
     margin:5px;
 
   }
-  
-  
 
 
 #conteudo_barra_lateral p  {
@@ -133,42 +123,27 @@ body {
    border-bottom:	2px	solid	#333333;
    width: 250px; 
    height: 30px;
-   border-style: solid;  
-   
+   border-style: solid;   
 }
 
 #conteudo_barra_lateral >p:hover {
     color:yellow;
-    font-size: large;       
+    font-size: large;     
 }
-
-
-
 
 #conteudo_barra_lateral >a:hover {
     color:yellow;
-    font-size: large;    
-    
+    font-size: large;        
 }
-
-#rodape1 {
-    background-color:black;
-    top: 960px;
-    height: 60px;
-    width: 100%;
-}
-
 
 #rodape {
     background-color:black;
     top: 96%;
     height: 60px;
-    width: 100%;
-    position: absolute;
+    width: 100%;    
 	bottom: 0;
 }
 
 #rodape > p {
     color: white;
 }
-

@@ -1,51 +1,34 @@
 .container {/*elemento pai*/
     background-color:gainsboro;
-    min-height:2000px;  
+    height: 60px;
     width: 100%;
     text-align:center;
-    position:absolute;
-    display: flex;
-    flex-flow: column;    
- 
-}
-
-.container #menu_horizontal {
-    flex-grow: 0;
-    flex-basis: auto;    
-}
-
-.container #conteudo #barra_lateral #conteudo_barra_lateral {
-    flex-grow: 0;
-    flex-basis: auto;
-}
-
-.container #rodape {
-    flex-grow: 1;
-    flex-basis: 100px; 
+    
 }
 
 body {
-    height: 100vh;
-    margin: 0
-}
-
-
-
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
 #conteudo {
-    font-family: Arial;    
+    font-family: Arial;
     font-size: 12px;  
     position:  absolute ;
     width: 70%;
     top:  120px; 
     left: 350px;
-    height:auto;    
-    padding: 10px;    
-    font-family: Arial;
-    font-size: 20px; 
-    text-align: justify;   
     
+    padding: 10px;    
 }
 
+#conteudo  {
+    font-family: Arial;
+    font-size: 20px; 
+    text-align: justify;
+}
 
 
 #conteudo >p {
@@ -90,56 +73,60 @@ body {
 
 
 #barra_lateral {
-    background-color:whitesmoke;        
-    border-style: solid;  
-    width: 350px;
-    top: 20px;     
+    background-color:whitesmoke;            
     
-   
+    height:  900px;
+    width: 350px;
+}   
+
+#barra_lateralold {
+    background-color:whitesmoke;            
+    
+    height: 750px;
+    width: 350px;
 }   
 
 
 
-
-
-#conteudo_barra_lateral{    
+#conteudo_barra_lateral{
+    
     background-color:rgb(160, 160, 160);    
-    top:20px;    
+    top:20px;
     left: 25px;   
-    min-height: 100vh ;
-    right: 25px;    
+    height: 100%;
+    right: 25px;
+    position: relative;
     padding: 10px;    
     width: 250px;   
-    
+    overflow: auto;
 }
 
-
-#div_img > img{
-    height: 200px;
-    width: auto;
+.botao  {
+    background-color:rgb(160, 160, 160);    
+    
+    
+    height: 100%;    
     position: relative;
-    float:left;
-    text-align:center;
-    border-style: solid;
-    margin:5px;
-
-  }
-  
-  
-
+    
+    width: 250px;   
+    
+   
+}
 
 #conteudo_barra_lateral p  {
    color: rgb(231, 226, 226);
    border-bottom:	2px	solid	#333333;
    width: 250px; 
    height: 30px;
-   border-style: solid;  
+   border-style: solid;
+   position: relative;
    
 }
 
 #conteudo_barra_lateral >p:hover {
     color:yellow;
-    font-size: large;       
+    font-size: large;   
+    
 }
 
 
@@ -158,7 +145,6 @@ body {
     width: 100%;
 }
 
-
 #rodape {
     background-color:black;
     top: 96%;
@@ -167,7 +153,6 @@ body {
     position: absolute;
 	bottom: 0;
 }
-
 #rodape > p {
     color: white;
 }
