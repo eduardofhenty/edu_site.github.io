@@ -3,26 +3,18 @@
     min-height:2000px;  
     width: 100%;
     text-align:center;
-    position:absolute;
+    position:relative;
     display: flex;
     flex-flow: column;    
  
 }
 
-.container #menu_horizontal {
+.container  {
     flex-grow: 0;
     flex-basis: auto;    
 }
 
-.container #conteudo #barra_lateral #conteudo_barra_lateral {
-    flex-grow: 0;
-    flex-basis: auto;
-}
 
-.container #rodape {
-    flex-grow: 1;
-    flex-basis: 100px; 
-}
 
 body {
     height: 100vh;
@@ -31,7 +23,7 @@ body {
 
 
 
-#conteudo {
+.conteudo {
     font-family: Arial;    
     font-size: 12px;  
     position:  absolute ;
@@ -48,29 +40,20 @@ body {
 
 
 
-#conteudo >p {
+.conteudo >p {
     font-family: Arial;
     font-size: 16px; 
     text-align: justify;
 }
 
-#contato  {
-    font-family: Arial;
-    font-size: 12px; 
-    text-align: left;
-    position:  absolute ;
-    width: 70%;
-    top:  120px; 
-    left: 360px;
-}
 
-#cabecalho  {
+.cabecalho  {
     color:black ;    
     font-family: Arial;
     font-size: 10px;       
 }
 
-#menu_horizontal {
+.menu_horizontal {
     background-color:black;
     position: relative;
     top:  20px;    
@@ -79,40 +62,107 @@ body {
     font-size: 18px; 
 } 
 
-#menu_horizontal >a {
+.menu_horizontal >a {
     color:azure;
 } 
 
-#menu_horizontal >a:hover {
+.menu_horizontal >a:hover {
     color:yellow;
     font-size: large;    
 } 
 
 
-#barra_lateral {
+.barra_lateral {
     background-color:whitesmoke;        
     border-style: solid;  
     width: 350px;
-    top: 20px;     
-    
+    top: 20px;        
+    position: relative;
+    flex-grow: 2;
+    display: flex;
    
 }   
 
+.center {
+	justify-content: center;
+}
 
+.flex {
+	display: flex;
+}
 
+.flex-wrap {
+	flex-wrap: wrap;
+}
 
+.column {
+	min-height: 200px;
+	flex-direction: column;
+}
 
-#conteudo_barra_lateral{    
-    background-color:rgb(160, 160, 160);    
-    top:20px;    
-    left: 25px;   
+.conteudo_barra_lateral{    
+    background-color:rgb(160, 160, 160);        
     min-height: 100vh ;
     right: 25px;    
+    left: 25px;
     padding: 10px;    
     width: 250px;   
+    position: relative;
+    flex-grow: 2;
+    
     
 }
 
+
+.conteudo_barra_lateral p  {
+   color: rgb(231, 226, 226);
+   border-bottom:	2px	solid	#333333;
+   width: 250px; 
+   height: 30px;   
+   border-style: solid;  
+   
+}
+
+.conteudo_barra_lateral >p:hover {
+    color:yellow;
+    font-size: large;       
+}
+
+
+
+
+.conteudo_barra_lateral >a:hover {
+    color:yellow;
+    font-size: large;    
+    
+}
+
+
+
+.rodape {
+    background-color:black;
+    top: 96 hv ;
+    height: 60px;
+    width: 100%;
+    position: relative;
+	bottom: 0;
+    
+}
+
+.rodape  >p {
+    color: white;
+    text-align: justify;
+}
+
+.contato  {
+    font-family: Arial;
+    font-size: 12px; 
+    text-align: left;
+    position:  absolute ;
+    width: 70%;
+    top:  120px; 
+    left: 360px;
+}
 
 #div_img > img{
     height: 200px;
@@ -123,52 +173,15 @@ body {
     border-style: solid;
     margin:5px;
 
-  }
-  
-  
-
-
-#conteudo_barra_lateral p  {
-   color: rgb(231, 226, 226);
-   border-bottom:	2px	solid	#333333;
-   width: 250px; 
-   height: 30px;
-   border-style: solid;  
-   
-}
-
-#conteudo_barra_lateral >p:hover {
-    color:yellow;
-    font-size: large;       
 }
 
 
-
-
-#conteudo_barra_lateral >a:hover {
-    color:yellow;
-    font-size: large;    
-    
-}
-
-#rodape1 {
-    background-color:black;
-    top: 960px;
-    height: 60px;
+#div_img2 > img{
     width: 100%;
+    height: 100%;
+    position: relative;
+    float:left;
+    text-align:center;
+    border-style: solid;
+    margin:5px;
 }
-
-
-#rodape {
-    background-color:black;
-    top: 96%;
-    height: 60px;
-    width: 100%;
-    position: absolute;
-	bottom: 0;
-}
-
-#rodape > p {
-    color: white;
-}
-
