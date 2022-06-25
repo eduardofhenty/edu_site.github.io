@@ -24,7 +24,24 @@
         <h1>Contato </h1>
         <a href="mailto:eduardofhenty@gmail.com">  <p>Email</p>  eduardofhenty@gmail.com</a>
          <a href="https://www.linkedin.com/in/eduardo-fernandes-henriques-138394190/"> <p>Linkedin</p> </a> 
+         <!-- Div de formulario para contato -->
 
+         <div id="form_contato">
+           <p>Preencha os seus dados</p>
+           <form action="envio.php" method="post">
+              <label for="nome_id">Nome </label>
+              <input id="nome_id" type="text" name="nome" placeholder="Digite o seu nome">
+              <p>Email</p> <input type="text" name="email">
+              <p>Mensagem</p><textarea name="message" rows="6" cols="25"></textarea>
+                 <br />
+              
+
+              <input id="botao_id" type="submit" value="Enviar">
+
+        </form>
+
+         </div>
+         
 
         </div>
 
