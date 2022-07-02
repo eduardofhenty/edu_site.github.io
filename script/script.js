@@ -57,7 +57,7 @@ $("#gal_inf").toggle() ;
 $(function(){
    
     
-    $("#atualiza").load("arq.txt")   ;  
+    $("#atualiza").load("https://www.ig.com.br/ #valorDolar")   ;  
           
         
     
