@@ -58,7 +58,9 @@ $(function(){
    
     
     //$("#atualiza").load("https://www.ig.com.br/ .iGh__containerDolar")   ;  
-	 $("#atualiza").load("https://www.uol.com.br/ .exchangeBarHeader__container")   ;  
+	 //$("#atualiza").load("https://www.uol.com.br/ .exchangeBarHeader__container")   ;  
+	$("#atualiza").load("https://www.uol.com.br/ .exchangeBarHeader__item__value--pos")   ;  
+	
           
         
    
