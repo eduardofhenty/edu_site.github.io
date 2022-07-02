@@ -57,7 +57,7 @@ $("#gal_inf").toggle() ;
 $(function(){
    
     
-    $("#atualiza").load("https://www.ig.com.br/ #valorDolar")   ;  
+    $("#atualiza").load("https://www.ig.com.br/ .iGh__containerDolar")   ;  
           
         
     
