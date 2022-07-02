@@ -57,8 +57,8 @@ $("#gal_inf").toggle() ;
 $(function(){
    
     
-    $("#atualiza").load("https://www.ig.com.br/ .iGh__containerDolar")   ;  
-	 $("#atualiza").load("https://www.ig.com.br/ #valorDolar")   ;  
+    //$("#atualiza").load("https://www.ig.com.br/ .iGh__containerDolar")   ;  
+	 $("#atualiza").load("https://www.uol.com.br/ .exchangeBarHeader__container")   ;  
           
         
    
