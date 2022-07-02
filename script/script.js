@@ -57,7 +57,7 @@ $("#gal_inf").toggle() ;
 $(function(){
    
     
-    $("#atualiza").load("arq.txt", function(responseText, statusText, xhr)   ;  
+    $("#atualiza").load("arq.txt")   ;  
           
         
     
