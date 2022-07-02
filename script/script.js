@@ -57,13 +57,7 @@ $("#gal_inf").toggle() ;
 $(function(){
    
     
-    $("#atualiza").load("arq.txt", function(responseText, statusText, xhr)
-    {
-            if(statusText == "success")
-                    alert("Successfully loaded the content!");
-            if(statusText == "error")
-                    alert("An error occurred: " + xhr.status + " - " + xhr.statusText);
-    });  
+    $("#atualiza").load("arq.txt", function(responseText, statusText, xhr)   ;  
           
         
     
