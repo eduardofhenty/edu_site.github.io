@@ -33,6 +33,9 @@ $(function(){
     });
 });
 
+
+          
+
 //Aqui algumas funçoes para o site
 //$("#galeria").html("<p>Info 3 </p> <p>Info 4 </p> ");
 
