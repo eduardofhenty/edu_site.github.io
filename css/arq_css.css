@@ -10,7 +10,7 @@
 }
 
 .container  {
-    flex-grow: 0;
+    flex-grow: 2;
     flex-basis: auto;    
 }
 
@@ -200,4 +200,16 @@ border-color: rgb(0, 195, 255);
     border-style: solid;
     text-align:left;
     border-color: rgb(0, 255, 136);
+}
+
+
+#port_img > img {
+    width: 600px;
+    height: auto;
+    position: relative;
+    
+    margin:5px;   
+    border-style: solid;
+border-color: rgb(0, 195, 255);
+
 }
