@@ -1,19 +1,19 @@
 .container {/*elemento pai*/
-    background-color:gainsboro;   
+    background-color:gainsboro;
+    min-height:2000px;  
     width: 100%;
     text-align:center;
     position:relative;
     display: flex;
-    flex-direction: column;    
-    min-height: 100vh;   
+    flex-flow: column;    
  
 }
 
-.conteiner2 {
-    position:relative;
-    top: -740px;
-    left: 350px;
+.container  {
+    flex-grow: 2;
+    flex-basis: auto;    
 }
+
 
 
 body {
@@ -25,16 +25,16 @@ body {
 
 .conteudo {
     font-family: Arial;    
-    font-size: 12px;      
+    font-size: 12px;  
+    position:  absolute ;
     width: 70%;
     top:  120px; 
     left: 350px;
-    height:100vh;    
+    height:auto;    
     padding: 10px;    
     font-family: Arial;
     font-size: 20px; 
-    text-align: justify;           
-    flex-basis: content;    
+    text-align: justify;   
     
 }
 
@@ -77,10 +77,9 @@ body {
     border-style: solid;  
     width: 350px;
     top: 20px;        
-    position: relative;    
+    position: relative;
+    flex-grow: 2;
     display: flex;
-    flex-basis: content;
-    min-height: 1000px ;
    
 }   
 
@@ -110,7 +109,8 @@ body {
     width: 250px;   
     position: relative;
     flex-grow: 2;
-    flex-basis: content;        
+    
+    
 }
 
 
@@ -119,7 +119,8 @@ body {
    border-bottom:	2px	solid	#333333;
    width: 250px; 
    height: 30px;   
-   border-style: solid;     
+   border-style: solid;  
+   
 }
 
 .conteudo_barra_lateral >p:hover {
@@ -132,17 +133,20 @@ body {
 
 .conteudo_barra_lateral >a:hover {
     color:yellow;
-    font-size: large;        
+    font-size: large;    
+    
 }
 
 
 
 .rodape {
-    background-color:black;  
+    background-color:black;
+    top: 96 hv ;
     height: 60px;
     width: 100%;
     position: relative;
-	bottom: 0;    
+	bottom: 0;
+    
 }
 
 .rodape  >p {
@@ -168,6 +172,7 @@ body {
     text-align:center;
     border-style: solid;
     margin:5px;
+
 }
 
 
@@ -187,6 +192,8 @@ width: 800px;
 height: 300px;
 border-style: solid;
 border-color: rgb(0, 195, 255);
+
+
 }
 
 #code_R {
@@ -199,8 +206,10 @@ border-color: rgb(0, 195, 255);
 #port_img > img {
     width: 600px;
     height: auto;
-    position: relative;    
+    position: relative;
+    
     margin:5px;   
     border-style: solid;
-    border-color: rgb(0, 195, 255);
+border-color: rgb(0, 195, 255);
+
 }
