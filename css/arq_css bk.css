@@ -102,7 +102,7 @@ body {
 
 .conteudo_barra_lateral{    
     background-color:rgb(160, 160, 160);        
-    min-height: 100vh ;
+    min-height: 8000px ;
     right: 25px;    
     left: 25px;
     padding: 10px;    
@@ -141,7 +141,7 @@ body {
 
 .rodape {
     background-color:black;
-    top: 96 hv ;
+    top: 99 hv ;
     height: 60px;
     width: 100%;
     position: relative;
@@ -206,10 +206,14 @@ border-color: rgb(0, 195, 255);
 #port_img > img {
     width: 600px;
     height: auto;
-    position: relative;
-    
+    position: relative;    
     margin:5px;   
     border-style: solid;
-border-color: rgb(0, 195, 255);
+    border-color: rgb(0, 195, 255);
+}
 
+#port_img > figcaption{
+    font-family: Arial;
+    font-size: 16px; 
+    text-align: justify;   
 }
