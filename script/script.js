@@ -40,10 +40,9 @@ $(function(){
 //$("#galeria").html("<p>Info 3 </p> <p>Info 4 </p> ");
 
 $(function(){    
-        $("#galeria").mouseenter( function(){        
-       //$("#gal_inf").html( '<a href="galeria.html">  <ol>   <li>primeiro item</li>   <li>segundo item</li>   <li>terceiro item</li></ol>'  );            
-            
-      $("#gal_inf").html('<ol> <a href="galeria1.html"> <li> Item 1 </li>  </a> <a href="galeria2.html"> <li> Item 2 </li>  </a> <a href="galeria3.html"> <li> Item 3 </li>  </a> </ol>');            
+      $("#galeria").mouseenter( function(){        
+             
+      $("#gal_inf").html('<ol> <a href="galeria1.html"> <li> Lisboa </li>  </a> <a href="galeria2.html"> <li> Coimbra </li>  </a> <a href="galeria3.html"> <li> Congresso </li>  </a> </ol>');            
 
     });
 });
