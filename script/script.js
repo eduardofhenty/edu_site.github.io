@@ -47,6 +47,14 @@ $(function(){
     });
 });
 
+$(function(){    
+    $("#portifolio").mouseenter( function(){        
+           
+    $("#port_inf").html('<ol> <a href="portifolio.html"> <li> Principal </li>  </a> <a href="dashboard.html"> <li> Dashboard </li>  </a> ');            
+
+  });
+});
+
 $(function (){
 $("#galeria").mouseleave( function(){
 $("#gal_inf").toggle() ;
